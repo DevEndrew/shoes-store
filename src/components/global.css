@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --header-line: #0d0915;
+  --header-black: #131313;
+  --white: #fff;
+  --sc--color: #f3f3f3;
+  --sc-hover: #d6d6d6;
+  --color-logo: #926ddc;
+  --sc-text: #8661d0;
+  --black: #000;
+  --border-w: #f3f7ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.logo {
+  font-family: "calistoga";
+  text-align: center;
+  font-size: 32px;
+}
+
+.logo span {
+  font-family: "calistoga";
+  text-align: center;
+  font-size: 32px;
+  color: var(--color-logo);
+}
