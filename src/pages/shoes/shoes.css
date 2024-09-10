@@ -29,11 +29,6 @@
   background-color: var(--border-w);
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid var(--border-w);
-}
-
-.productsGrid:hover {
-  border-color: var(--black);
 }
 
 .info {
@@ -61,4 +56,21 @@
 
 .productItem .productPrice {
   font-weight: bold;
+}
+
+.productItem .Cart {
+  margin-top: 20px;
+  background-color: var(--cart-g);
+  padding: 15px;
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.productItem .Cart:hover {
+  background-color: var(--cart-hover-g);
 }
